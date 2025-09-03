@@ -38,16 +38,16 @@ function Nav() {
       <ul className='desktopmenu'>
         <Link to="home" activeClass='active' spy={true} smooth={true} duration={500}><li>Home</li></Link>
         <Link to="about" activeClass='active' spy={true} smooth={true} duration={500}><li>About</li></Link>
-        <Link to="projects" activeClass='active' spy={true} smooth={true} duration={500}><li>Projects</li></Link>
+        <Link to="projects-experience" activeClass='active' spy={true} smooth={true} duration={500}><li>Projects</li></Link>
         <Link to="contact" activeClass='active' spy={true} smooth={true} duration={500}><li>Contact</li></Link>
       </ul>
 
       {/* Middle Navbar with Icons */}
       <div className="midnav">
-      <a href="https://www.linkedin.com/in/abhay-thakre-a402b1370/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/abhay-thakre-a402b1370/" target="_blank" rel="noopener noreferrer" className='linkidin'>
        <FaLinkedin size={40} />
       </a>
-     <a href="mailto:thakreabhay450@gmail.com">
+     <a href="mailto:thakreabhay450@gmail.com" className='email'>
       <FaEnvelope size={40} />
       </a>
      </div>
@@ -67,7 +67,7 @@ function Nav() {
       <ul className='mobilemenu' ref={mobile}>
         <Link to="home" activeClass='active' spy={true} smooth={true} duration={500}><li>Home</li></Link>
         <Link to="about" activeClass='active' spy={true} smooth={true} duration={500}><li>About</li></Link>
-        <Link to="projects" activeClass='active' spy={true} smooth={true} duration={500}><li>Projects</li></Link>
+        <Link to="projects-experience" activeClass='active' spy={true} smooth={true} duration={500}><li>Projects</li></Link>
         <Link to="contact" activeClass='active' spy={true} smooth={true} duration={500}><li>Contact</li></Link>
       </ul>
     </nav>
